@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white"> <!-- Apply dark background and white text to the whole body -->
+    <div class="container">
+        <h1 class="mt-4">Registration</h1>
+        <form>
+            <div class="form-group">
+                <label for="username" class="text-white">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password" class="text-white">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password" class="text-white">Confirm Password:</label>
+                <input type="password" class="form-control" id="confirm-password" name="confirm-password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="name" class="text-white">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="button" class="btn btn-secondary" id="cancel">Cancel</button>
+        </form>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
