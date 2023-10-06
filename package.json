@@ -1,0 +1,26 @@
+{
+  "name": "itpe6_prelim_exam",
+  "version": "1.0.0",
+  "description": "This is your prelim laboratory exam.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "serve": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanchico1414/ITPE6_Prelim_Exam.git"
+  },
+  "author": "Jonathan Chico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanchico1414/ITPE6_Prelim_Exam/issues"
+  },
+  "homepage": "https://github.com/jonathanchico1414/ITPE6_Prelim_Exam#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
